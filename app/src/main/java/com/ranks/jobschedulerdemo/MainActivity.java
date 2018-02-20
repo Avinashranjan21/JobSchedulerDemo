@@ -1,6 +1,5 @@
 package com.ranks.jobschedulerdemo;
 
-import android.app.NotificationManager;
 import android.app.job.JobInfo;
 import android.app.job.JobScheduler;
 import android.content.ComponentName;
@@ -19,7 +18,6 @@ public class MainActivity extends AppCompatActivity {
     Button btnJob;
     private static final String TAG = "MainActivity";
     private JobInfo jobInfo;
-    private NotificationManager notifManager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
